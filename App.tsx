@@ -4,7 +4,7 @@ import Home from './src/Page/Home/Home'
 
 const App = () => {
   return (
-    <View>
+    <View style={{flex:1}}>
       <Home></Home>
     </View>
   )
