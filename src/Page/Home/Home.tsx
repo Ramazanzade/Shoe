@@ -3,6 +3,7 @@ import React from 'react'
 import homecss from './homecss'
 import Heart from '../../Component/Heart/Heart'
 import Star from '../../Component/Star/Star'
+import Model from '../3DModel/3DModel'
 const Home = () => {
     return (
         <View style={homecss.view}>
@@ -20,6 +21,9 @@ const Home = () => {
             </View>
             <View style={homecss.starview}>
                 <Star></Star>
+            </View>
+            <View>
+                <Model></Model>
             </View>
         </View>
     )
