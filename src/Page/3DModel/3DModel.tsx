@@ -11,9 +11,9 @@ const Model = () => {
       }}
     >
       <ambientLight />
-      {/* <pointLight position={[10, 10, 10]} /> */}
+      <pointLight position={[20, 15, 20]} />
       <mesh>
-        <boxGeometry args={[1, 1, 1]} />
+        <boxGeometry args={[5, 5, 5]} />
         {/* <meshStandardMaterial color="orange" /> */}
       </mesh>
     </Canvas>
