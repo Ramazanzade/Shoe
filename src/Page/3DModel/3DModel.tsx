@@ -6,15 +6,15 @@ const Model = () => {
   return (
     <Canvas
       camera={{
-        position: [5, 5, -5],
+        position: [15, 15, -15],
         fov: 75,
       }}
     >
       <ambientLight />
       <pointLight position={[20, 15, 20]} />
       <mesh>
-        <boxGeometry args={[5, 5, 5]} />
-        {/* <meshStandardMaterial color="orange" /> */}
+        <boxGeometry args={[1, 1, 1]} />
+        <meshStandardMaterial color="green" />
       </mesh>
     </Canvas>
   )
